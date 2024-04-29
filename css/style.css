@@ -338,14 +338,18 @@ h6,
     position: absolute;
     width: 60px;
     bottom: -48px;
+    height: 40px;
     left: 50%;
     margin-left: -30px;
     opacity: 0;
+   
 }
+
 
 .service-item:hover a.btn {
     bottom: -24px;
     opacity: 1;
+    breadth:20px;
 }
 
 
