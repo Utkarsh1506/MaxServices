@@ -110,6 +110,194 @@ include 'nav.php';
     </div>
     <!-- Full Screen Search End -->
 
+    <style>
+    /* Container styling */
+    .job-container {
+        background-color:cream;
+        border: 1px solid #ddd;
+        padding: 10px;
+        width: 100%; /* Full width on small screens */
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+
+    /* Job title styling */
+    .job-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    /* Job location styling */
+    .job-location {
+        font-size: 18px;
+        color: #666;
+        margin-bottom: 15px;
+        color: black;
+    }
+
+    /* Apply button styling */
+    .apply-button {
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .apply-button:hover {
+        background-color: green;
+    }
+
+    #parent {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap; /* Allows job containers to wrap on smaller screens */
+        justify-content: center;
+    }
+
+    #location-filter {
+        padding: 10px;
+        background-color: red;
+        color: black;
+        width: 100%; /* Full width on small screens */
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    #center {
+        text-align: center;
+    }
+
+    /* Media query for smaller screens */
+    @media only screen and (min-width: 768px) {
+        .job-container {
+            width: 45%; /* Two job containers per row on medium screens */
+            margin: 10px;
+        }
+
+        #location-filter {
+            width: 30%;
+        }
+    }
+</style>
+<div class="row">
+    <div id="center">
+        <label for="">Choose Location : &nbsp;</label>
+        <select id="location-filter">
+            <option value="all">All</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="philippines">Philippines</option>
+        </select>
+    </div>
+</div>
+<br>
+<br>
+<div class="row">
+    <div id="parent">
+        <div class="job-container india">
+            <div class="job-title">Intermediate Network Engineer</div>
+            <div class="job-location">Location - Noida, India</div>
+            <!-- HTML -->
+<button onclick="window.location.href='Intermediate Network engineer.html'" class="apply-button">APPLY NOW</button>
+
+        </div>
+        <div class="job-container india">
+            <div class="job-title">LAMP Engineer</div>
+            <div class="job-location">Location - Noida, India</div>
+            <button onclick="window.location.href='lamp developer.html'" class="apply-button">APPLY NOW</button>
+
+        </div>
+        <div class="job-container india">
+            <div class="job-title">Global Sales</div>
+            <div class="job-location">Location - Noida, India</div>
+            <button onclick="window.location.href='Global sales.html'" class="apply-button">APPLY NOW</button>
+
+        </div>
+        <div class="job-container india">
+            <div class="job-title">AIX Architecture</div>
+            <div class="job-location">Location - Noida, India</div>
+            <button onclick="window.location.href='aix Architecture.html'" class="apply-button">APPLY NOW</button>
+
+        </div>
+        <div class="job-container india">
+            <div class="job-title">Automation Test Engineer</div>
+            <div class="job-location">Location - Noida, India</div>
+            <button onclick="window.location.href='Automation Test Engineer.html'" class="apply-button">APPLY NOW</button>
+
+        </div>
+        <div class="job-container india">
+            <div class="job-title">Customer Support Engineer – Freshers</div>
+            <div class="job-location">Location - Noida, India</div>
+            <button onclick="window.location.href='Automation Test Engineer.html'" class="apply-button">APPLY NOW</button>
+
+        </div>
+        <div class="job-container india">
+            <div class="job-title">Software Sales Manager</div>
+            <div class="job-location">Location - Noida, India</div>
+            <button onclick="window.location.href='Software Sale.html'" class="apply-button">APPLY NOW</button>
+
+        </div>
+
+        <div class="job-container usa">
+            <div class="job-title">React JS Developer</div>
+            <div class="job-location">Location - Houston, Texas</div>
+            <button onclick="window.location.href='React.html'" class="apply-button">APPLY NOW</button>
+
+        </div>
+        <div class="job-container usa">
+            <div class="job-title">Full-Stack Developer</div>
+            <div class="job-location">Location - Waller. TX, U.S</div>
+            <button onclick="window.location.href='Fullstack.html'" class="apply-button">APPLY NOW</button>
+
+        </div>
+        <div class="job-container usa">
+            <div class="job-title">iSeries/AS400 Developer</div>
+            <div class="job-location">Location - USA</div>
+            <button onclick="window.location.href='iseries.html'" class="apply-button">APPLY NOW</button>
+
+        </div>
+        <div class="job-container philippines">
+            <div class="job-title">Intermediate Network Engineer</div>
+            <div class="job-location">Location - Philippines</div>
+            <button onclick="window.location.href='INEP.html'" class="apply-button">APPLY NOW</button>
+
+        </div>
+        <div class="job-container philippines">
+            <div class="job-title">HR Manager</div>
+            <div class="job-location">Location - Makati (Philippines)</div>
+            <button onclick="window.location.href='Makati (philiphans).html'" class="apply-button">APPLY NOW</button>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("location-filter").addEventListener("change", function() {
+        var selectedLocation = this.value;
+        var jobContainers = document.querySelectorAll(".job-container");
+
+        jobContainers.forEach(function(container) {
+            if (selectedLocation === "all") {
+                container.style.display = "block";
+            } else {
+                if (container.classList.contains(selectedLocation)) {
+                    container.style.display = "block";
+                } else {
+                    container.style.display = "none";
+                }
+            }
+        });
+    });
+</script>
+
 
     <!-- Contact Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
