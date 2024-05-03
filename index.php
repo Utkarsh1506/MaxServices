@@ -226,8 +226,8 @@
                             <h4 class="text-primary mb-0">1800 257 1003</h4>
                         </div>
                     </div>
-                    <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request
-                        A Quote</a>
+                    <a href="contact.php" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request
+                        A call</a>
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
@@ -319,7 +319,7 @@
                         <h4 class="mb-3">Cyber Security</h4>
                         <p class="m-0"> Protect your digital assets and safeguard your operations with our robust Cyber Security solutions.
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="service.html"><i class="bi bi-arrow-right"></i>ReadMore</a>
+                        <a class="btn btn-lg btn-primary rounded" href="cybersecurity.html"><i class="bi bi-arrow-right"></i>ReadMore</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -330,7 +330,7 @@
                         <h4 class="mb-3">AppOps</h4>
                         <p class="m-0">Ensure the smooth operation and optimization of your applications with our specialized AppOps solutions.
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="service.html"><i class="bi bi-arrow-right"></i>ReadMore</a>
+                        <a class="btn btn-lg btn-primary rounded" href="AppOps.html"><i class="bi bi-arrow-right"></i>ReadMore</a>
                     </div>
                 </div>
                 
@@ -342,7 +342,7 @@
                         <h4 class="mb-3">App Modernization</h4>
                         <p class="m-0">Revamp your applications for enhanced performance and scalability with our specialized App Modernization services.
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="service.html"><i class="bi bi-arrow-right"></i>ReadMore</a>
+                        <a class="btn btn-lg btn-primary rounded" href="App Modernization.html"><i class="bi bi-arrow-right"></i>ReadMore</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -352,7 +352,7 @@
                         </div>
                         <h4 class="mb-3">Infra Managed Services</h4>
                         <p class="m-0">Optimize your infrastructure with our end-to-end Managed Services.</p>
-                        <a class="btn btn-lg btn-primary rounded" href="service.html"><i class="bi bi-arrow-right"></i>ReadMore</a>
+                        <a class="btn btn-lg btn-primary rounded" href="Infra Managed Services.html"><i class="bi bi-arrow-right"></i>ReadMore</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -363,7 +363,7 @@
                         <h4 class="mb-3">Cloud</h4>
                         <p class="m-0"> Leverage the power of the cloud to scale, innovate, and drive efficiency with our comprehensive cloud solutions.
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="service.html"><i class="bi bi-arrow-right"></i>ReadMore</a>
+                        <a class="btn btn-lg btn-primary rounded" href="Cloud.html"><i class="bi bi-arrow-right"></i>ReadMore</a>
                         
                     </div>
                 </div>
@@ -383,7 +383,7 @@
                         <h4 class="mb-3">DevOps</h4>
                         <p class="m-0"> Streamline your development and operations seamlessly with our tailored DevOps solutions.
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="service.html"><i class="bi bi-arrow-right"></i>ReadMore</a>
+                        <a class="btn btn-lg btn-primary rounded" href="devOps.html"><i class="bi bi-arrow-right"></i>ReadMore</a>
                         
                     </div>
                 </div>
@@ -400,7 +400,7 @@
                     technology solutions and drive innovation forward.</h1>
             </div>
             <!-- Vendor Start -->
-            <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container-fluid py-0 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="container py-5 mb-5">
                     <div class="bg-white">
                         <div class="owl-carousel vendor-carousel">
@@ -444,11 +444,7 @@
                 </div>
             </div>
             <!-- Vendor End -->
-        </div>
-    </div>
-    <!-- PartnersEnd -->
-
-
+            
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
@@ -460,6 +456,11 @@
         </div>
     </div>
     
+        </div>
+    </div>
+    <!-- PartnersEnd -->
+
+
       
     <!-- Blog Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
