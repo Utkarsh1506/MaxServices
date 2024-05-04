@@ -232,7 +232,7 @@
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
                         <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
-                            src="img/about.png" style="object-fit: cover;">
+                            src="img/WHY MEGAMAX.jpg" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -272,7 +272,7 @@
                 <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                     <div class="position-relative h-100">
                         <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
-                            src="img/feature.png" style="object-fit: cover;">
+                            src="img/what to expect.jpg" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -394,13 +394,17 @@
     <!-- Partners -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
+       
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">Our Partners</h5>
                 <h1 class="mb-0"> Discover our network of esteemed partners, collaborating with us to deliver cutting-edge 
                     technology solutions and drive innovation forward.</h1>
+                    <br>
+                    <img src="img/Partner's Image.png" style="width:100%;">
             </div>
+           
             <!-- Vendor Start -->
-            <div class="container-fluid py-0 wow fadeInUp" data-wow-delay="0.1s">
+            <!-- <div class="container-fluid py-0 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="container py-5 mb-5">
                     <div class="bg-white">
                         <div class="owl-carousel vendor-carousel">
@@ -442,8 +446,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Vendor End -->
+            </div>  -->
+            <!-- Vendor End
             
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
@@ -454,10 +458,7 @@
             <!-- Make the image responsive -->
             <img class="img-fluid" src="img/Systematic_progress.png" alt="Systematic Progress">
         </div>
-    </div>
     
-        </div>
-    </div>
     <!-- PartnersEnd -->
 
 
@@ -520,7 +521,7 @@
         </div>
     </div>
     <!-- Blog Start -->
-
+   
     
 
 
@@ -588,10 +589,10 @@ made in our successful application. "
 Our partnership has grown over the past 4 years, and we expect to continue working with Megamax for many years to come.
                     </div>
                 </div>
-            </div>
-        </div>
+                </div>
+    
     </div>
-    <!-- Testimonial End -->
+</div>
 
 
     <!-- Testimonial Start -->
